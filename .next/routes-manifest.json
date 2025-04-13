@@ -77,15 +77,5 @@
     "pathHeader": "x-nextjs-rewritten-path",
     "queryHeader": "x-nextjs-rewritten-query"
   },
-  "rewrites": {
-    "beforeFiles": [
-      {
-        "source": "/Theo_Online_Portfolio//_next/:path+",
-        "destination": "/Theo_Online_Portfolio/_next/:path+",
-        "regex": "^/Theo_Online_Portfolio//_next(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))(?:/)?$"
-      }
-    ],
-    "afterFiles": [],
-    "fallback": []
-  }
+  "rewrites": []
 }

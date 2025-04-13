@@ -1,9 +1,9 @@
 {
   "/_not-found/page": "/_not-found",
-  "/api/projects/route": "/api/projects",
+  "/api/profile/route": "/api/profile",
   "/api/experience/route": "/api/experience",
   "/api/skills/route": "/api/skills",
-  "/api/profile/route": "/api/profile",
+  "/api/projects/route": "/api/projects",
   "/page": "/",
   "/about/page": "/about",
   "/contact/page": "/contact",

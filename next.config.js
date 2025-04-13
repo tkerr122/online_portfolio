@@ -12,7 +12,6 @@ const nextConfig = {
         pathname: '**',
       },
     ],
-    unoptimized: true,
   },
   // Next.js 15 specific configurations
   experimental: {
@@ -22,9 +21,6 @@ const nextConfig = {
       'framer-motion',
     ],
   },
-  output: 'export',
-  basePath: process.env.NODE_ENV === 'production' ? '/Theo_Online_Portfolio' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/Theo_Online_Portfolio/' : '',
 }
 
 module.exports = nextConfig 
