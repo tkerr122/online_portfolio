@@ -2,16 +2,8 @@
   "version": 3,
   "pages404": true,
   "caseSensitive": false,
-  "basePath": "/Theo_Online_Portfolio",
+  "basePath": "",
   "redirects": [
-    {
-      "source": "/Theo_Online_Portfolio/",
-      "destination": "/Theo_Online_Portfolio",
-      "basePath": false,
-      "internal": true,
-      "statusCode": 308,
-      "regex": "^/Theo_Online_Portfolio/$"
-    },
     {
       "source": "/:path+/",
       "destination": "/:path+",
