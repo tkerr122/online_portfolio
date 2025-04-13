@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "title": "E-commerce Platform",
+    "description": "A full-stack e-commerce platform with user authentication, product management, and payment processing.",
+    "technologies": ["React", "Node.js", "Express", "MongoDB", "Stripe"],
+    "image": "/images/projects/ecommerce.jpg",
+    "githubUrl": "https://github.com/theo/ecommerce",
+    "liveUrl": "https://ecommerce-demo.com",
+    "featured": true
+  },
+  {
+    "id": "2",
+    "title": "Weather App",
+    "description": "A weather application that provides real-time weather information based on location.",
+    "technologies": ["React", "OpenWeatherMap API", "Styled Components", "Axios"],
+    "image": "/images/projects/weather.jpg",
+    "githubUrl": "https://github.com/theo/weather-app",
+    "liveUrl": "https://weather-app-demo.com",
+    "featured": true
+  },
+  {
+    "id": "3",
+    "title": "Task Management System",
+    "description": "A task management system that helps users organize and track their daily tasks.",
+    "technologies": ["React", "TypeScript", "Firebase", "Redux"],
+    "image": "/images/projects/task-manager.jpg",
+    "githubUrl": "https://github.com/theo/task-manager",
+    "liveUrl": "https://task-manager-demo.com",
+    "featured": false
+  }
+] 

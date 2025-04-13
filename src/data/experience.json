@@ -1,0 +1,63 @@
+[
+  {
+    "id": "1",
+    "company": "University of Maryland",
+    "position": "Faculty Specialist",
+    "location": "College Park, Maryland, United States (Hybrid)",
+    "startDate": "Nov 2022",
+    "endDate": "Present",
+    "description": "Supporting research in remote sensing and land cover change through data analysis and tool development.",
+    "achievements": [
+      "Developed a workflow extracting Canopy Height Model from lidar data using R, Python, and Bash",
+      "Processed raster (image) and vector (polygon) datasets to support ongoing research",
+      "Implemented algorithms and conducted data synthesis and image interpretation",
+      "Conducted fieldwork to support data collection",
+      "Contributed to peer-reviewed publications"
+    ]
+  },
+  {
+    "id": "2",
+    "company": "Thought Delivery Systems, Inc.",
+    "position": "GIS Team Member",
+    "location": "Silver Spring, Maryland, United States",
+    "startDate": "Sep 2021",
+    "endDate": "Oct 2022",
+    "description": "Worked on geographic mapping and visualization projects using QGIS and other geospatial tools.",
+    "achievements": [
+      "Collected and digitized geographic data for map creation",
+      "Created visualizations using StoryMaps and Mapbox",
+      "Led global project to map Champion Trees",
+      "Planned and moderated high-attendance conferences",
+      "Established standard procedures for company mapping and data archiving"
+    ]
+  },
+  {
+    "id": "3",
+    "company": "University of Maryland",
+    "position": "Faculty Assistant, NASA Global Ecosystem Dynamics Investigation (GEDI) team",
+    "location": "College Park, Maryland, United States",
+    "startDate": "Sep 2021",
+    "endDate": "Aug 2022",
+    "description": "Supported international forest monitoring and LiDAR data research through code development and fieldwork.",
+    "achievements": [
+      "Traveled to Mozambique to assist in LiDAR data collection",
+      "Edited a technical paper on forest degradation classification",
+      "Attended Terrestrial Laser Scanner training by Riegl",
+      "Adapted code to calculate forest biomass density for global datasets",
+      "Collaborated on debugging and improving research codebase"
+    ]
+  },
+  {
+    "id": "4",
+    "company": "Thought Delivery Systems Incorporated",
+    "position": "Geographic Information System Intern",
+    "location": "Silver Spring, Maryland, United States",
+    "startDate": "Feb 2021",
+    "endDate": "Sep 2021",
+    "description": "Supported mapping projects and GIS analysis across Montgomery County, MD.",
+    "achievements": [
+      "Created a digital collection of hiking and biking trails",
+      "Supported various GIS mapping initiatives for the company"
+    ]
+  }
+]

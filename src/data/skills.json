@@ -1,0 +1,69 @@
+[
+  {
+    "category": "Programming Languages",
+    "skills": [
+      "Python",
+      "R",
+      "Bash"
+    ]
+  },
+  {
+    "category": "GIS & Remote Sensing",
+    "skills": [
+      "Geographic Information Systems (GIS)",
+      "Remote Sensing",
+      "LiDAR",
+      "ArcGIS",
+      "QGIS",
+      "Image Analysis"
+    ]
+  },
+  {
+    "category": "Web Development",
+    "skills": [
+      "Web Development",
+      "Intro to Python for GIS"
+    ]
+  },
+  {
+    "category": "Data Analysis & Modeling",
+    "skills": [
+      "Statistical Modeling",
+      "Deep Learning",
+      "Literature Reviews"
+    ]
+  },
+  {
+    "category": "Other Technical Skills",
+    "skills": [
+      "Drone Piloting",
+      "Project Management",
+      "Client Relations",
+      "Research"
+    ]
+  },
+  {
+    "category": "Soft Skills",
+    "skills": [
+      "Teamwork",
+      "Environmental Awareness",
+      "Conservation Issues",
+      "Planning"
+    ]
+  },
+  {
+    "category": "Languages",
+    "skills": [
+      "French",
+      "Russian"
+    ]
+  },
+  {
+    "category": "Hobbies & Interests",
+    "skills": [
+      "Frisbee",
+      "Hiking",
+      "Traveling"
+    ]
+  }
+]

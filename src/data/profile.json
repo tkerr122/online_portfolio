@@ -1,0 +1,15 @@
+{
+  "name": "Theo Kerr",
+  "title": "Remote Sensing Scientist",
+  "description": "Remote Sensing Scientist specializing in the application of Remote Sensing and GIS technologies to monitor and analyze global land cover change. Passionate about leveraging satellite imagery, spatial data, and geospatial analytics to support sustainable land management and environmental decision-making.",
+  "email": "theo@example.com",
+  "phone": "+1 234 567 890",
+  "location": "Maryland, USA",
+  "social": {
+    "github": "https://github.com/theo",
+    "linkedin": "https://linkedin.com/in/theo",
+    "twitter": "https://twitter.com/theo"
+  },
+  "avatar": "/images/avatar.jpg",
+  "resume": ""
+} 
