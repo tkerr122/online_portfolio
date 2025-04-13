@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next build",
+    "deploy": "next build && touch out/.nojekyll && gh-pages -d out"
   },
   "keywords": [],
   "author": "",
@@ -23,5 +25,8 @@
     "react-dom": "^19.1.0",
     "styled-components": "^6.1.8",
     "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }

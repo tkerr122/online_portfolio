@@ -1,7 +1,6 @@
 // This is a Server Component
 import { getProfileData, getProjectsData, getSkillsData } from '@/hooks/useDataFetching';
 import HomePage from '@/components/Pages/HomePage';
-import { unstable_noStore as noStore } from 'next/cache';
 
 // Add dynamic metadata for the homepage
 export async function generateMetadata() {
@@ -13,9 +12,6 @@ export async function generateMetadata() {
 }
 
 export default async function Home() {
-  // Opt out of static rendering for dynamic data
-  noStore();
-  
   // Server-side data fetching
   const profileData = await getProfileData();
   const projectsData = await getProjectsData();
