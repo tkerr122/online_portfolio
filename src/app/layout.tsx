@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from 'next';
-import { getProfileData } from '@/hooks/useDataFetching';
 import RootLayout from '@/components/Layout/RootLayout';
 import StyledComponentsRegistry from '@/lib/registry';
+import { Profile } from '@/types';
 
 export const metadata: Metadata = {
   title: 'Theo | Full Stack Developer',
@@ -20,19 +20,33 @@ export const viewport: Viewport = {
   initialScale: 1,
 };
 
-export default async function Layout({
+// Default profile data
+const defaultProfile: Profile = {
+  name: 'Theo',
+  title: 'Full Stack Developer',
+  description: 'Full Stack Developer specializing in modern web technologies',
+  email: 'contact@example.com',
+  phone: '',
+  location: 'New York, NY',
+  social: {
+    github: '',
+    linkedin: '',
+    twitter: '',
+  },
+  avatar: '/placeholder-avatar.png',
+  resume: '/resume.pdf'
+};
+
+export default function Layout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  // Fetch profile data for the layout (header/footer)
-  const profileData = await getProfileData();
-  
   return (
     <html lang="en">
       <body>
         <StyledComponentsRegistry>
-          <RootLayout profileData={profileData}>{children}</RootLayout>
+          <RootLayout profileData={defaultProfile}>{children}</RootLayout>
         </StyledComponentsRegistry>
       </body>
     </html>
