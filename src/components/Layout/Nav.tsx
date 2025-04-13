@@ -1,11 +1,20 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import Link from 'next/link';
 import { useTheme } from '@/hooks/useTheme';
 import { usePathname } from 'next/navigation';
-import { motion } from 'framer-motion';
+
+// Replace motion with simpler styled components to reduce dependencies
+const AnimatedLink = styled.span`
+  display: inline-block;
+  transition: transform 0.2s ease;
+  
+  &:hover {
+    transform: translateY(-2px);
+  }
+`;
 
 const NavContainer = styled.nav`
   position: fixed;
@@ -126,17 +135,26 @@ const ThemeToggle = styled.button`
 
 const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [mounted, setMounted] = useState(false);
   const { theme, toggleTheme } = useTheme();
   const pathname = usePathname();
+  
+  useEffect(() => {
+    setMounted(true);
+  }, []);
   
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
   
+  if (!mounted) {
+    return null;
+  }
+  
   return (
     <NavContainer>
       <NavContent>
-        <Link href="/">
+        <Link href="/" style={{ textDecoration: 'none' }}>
           <Logo>Theo Kerr</Logo>
         </Link>
         
@@ -146,19 +164,19 @@ const Nav = () => {
           </MenuButton>
           
           <NavLinks $isOpen={isMenuOpen}>
-            <Link href="/">
+            <Link href="/" style={{ textDecoration: 'none' }}>
               <NavLink className={pathname === "/" ? "active" : ""}>Home</NavLink>
             </Link>
-            <Link href="/about">
+            <Link href="/about" style={{ textDecoration: 'none' }}>
               <NavLink className={pathname === "/about" ? "active" : ""}>About</NavLink>
             </Link>
-            <Link href="/projects">
+            <Link href="/projects" style={{ textDecoration: 'none' }}>
               <NavLink className={pathname === "/projects" ? "active" : ""}>Projects</NavLink>
             </Link>
-            <Link href="/experience">
+            <Link href="/experience" style={{ textDecoration: 'none' }}>
               <NavLink className={pathname === "/experience" ? "active" : ""}>Experience</NavLink>
             </Link>
-            <Link href="/contact">
+            <Link href="/contact" style={{ textDecoration: 'none' }}>
               <NavLink className={pathname === "/contact" ? "active" : ""}>Contact</NavLink>
             </Link>
           </NavLinks>

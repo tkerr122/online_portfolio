@@ -24,7 +24,7 @@ const RootLayout = ({ children, profileData }: RootLayoutProps) => {
       <GlobalStyles />
       <Nav />
       <Main>{children}</Main>
-      {/* <Footer profileData={profileData} /> */}
+      <Footer profileData={profileData} />
     </ThemeProvider>
   );
 };

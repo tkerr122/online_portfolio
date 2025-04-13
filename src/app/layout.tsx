@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from 'next';
 import RootLayout from '@/components/Layout/RootLayout';
 import StyledComponentsRegistry from '@/lib/registry';
 import { Profile } from '@/types';
+import Script from 'next/script';
 
 export const metadata: Metadata = {
   title: 'Theo | Full Stack Developer',
@@ -29,9 +30,9 @@ const defaultProfile: Profile = {
   phone: '',
   location: 'New York, NY',
   social: {
-    github: '',
-    linkedin: '',
-    twitter: '',
+    github: 'https://github.com',
+    linkedin: 'https://linkedin.com',
+    twitter: 'https://twitter.com',
   },
   avatar: '/placeholder-avatar.png',
   resume: '/resume.pdf'
@@ -44,6 +45,16 @@ export default function Layout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <Script id="vercel-deployment-setup" strategy="beforeInteractive">
+          {`
+            window.process = window.process || {};
+            window.process.env = window.process.env || {};
+            window.process.env.NEXT_PUBLIC_BASE_URL = window.location.origin;
+            window.process.env.VERCEL_URL = window.location.host;
+          `}
+        </Script>
+      </head>
       <body>
         <StyledComponentsRegistry>
           <RootLayout profileData={defaultProfile}>{children}</RootLayout>

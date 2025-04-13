@@ -1,12 +1,1 @@
-{
-  "/api/experience/route": "app/api/experience/route.js",
-  "/api/profile/route": "app/api/profile/route.js",
-  "/api/projects/route": "app/api/projects/route.js",
-  "/api/skills/route": "app/api/skills/route.js",
-  "/_not-found/page": "app/_not-found/page.js",
-  "/page": "app/page.js",
-  "/about/page": "app/about/page.js",
-  "/contact/page": "app/contact/page.js",
-  "/experience/page": "app/experience/page.js",
-  "/projects/page": "app/projects/page.js"
-}
+{}
