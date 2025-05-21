@@ -11,9 +11,9 @@
   },
   {
     "id": "2",
-    "title": "Weather App",
-    "description": "A weather application that provides real-time weather information based on location.",
-    "technologies": ["React", "OpenWeatherMap API", "Styled Components", "Axios"],
+    "title": "Hydrology Analysis",
+    "description": "Conduct a hydrology analysis using a digital elevation model, and use statistical analysis to determine accuracy",
+    "technologies": ["Python", "ArcPy", "Model Evaluation"],
     "image": "/images/projects/weather.jpg",
     "githubUrl": "https://github.com/theo/weather-app",
     "liveUrl": "https://weather-app-demo.com",

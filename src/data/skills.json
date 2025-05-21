@@ -2,9 +2,10 @@
   {
     "category": "Programming Languages",
     "skills": [
-      "Python: GDAL, NumPy, GeoPandas, Pandas for vector and raster manipulation, and interacting with APIs",
-      "R: LidR, LasR, ForEach, DoParallel, Future, Raster for lidar data processing",
-      "Bash: download files in parallel and script GDAL workflows"
+      "Python",
+      "R",
+      "Bash",
+      "SQL"
     ]
   },
   {
@@ -12,33 +13,44 @@
     "skills": [
       "Geographic Information Systems (GIS)",
       "Remote Sensing",
+      "Image Interpretation",
       "LiDAR",
       "ArcGIS",
       "QGIS",
-      "Image Analysis"
+      "Mapbox",
+      "StoryMaps"
+    ]
+  },
+  {
+    "category": "Coursework",
+    "skills": [
+      "Lidar Remote Sensing",
+      "Spatial Analysis",
+      "Web Development for GIS",
+      "Advanced Python Programming for GIS",
+      "Spatial Modeling",
+      "Spatial Databases",
+      "Big Data Analytics",
+      "Drones for Data Collection",
+      "Image Processing"
     ]
   },
   {
     "category": "Web Development",
     "skills": [
-      "Web Development",
-      "Intro to Python for GIS"
-    ]
-  },
-  {
-    "category": "Data Analysis & Modeling",
-    "skills": [
-      "Statistical Modeling",
-      "Deep Learning",
-      "Literature Reviews"
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "PHP",
+      "React"
     ]
   },
   {
     "category": "Other Technical Skills",
     "skills": [
-      "Drone Piloting",
-      "Project Management",
-      "Client Relations",
+      "Lidar data collection",
+      "Field work",
+      "",
       "Research"
     ]
   },
@@ -47,22 +59,22 @@
     "skills": [
       "Teamwork",
       "Environmental Awareness",
-      "Conservation Issues",
-      "Planning"
+      "Conservation Issues"
     ]
   },
   {
     "category": "Languages",
     "skills": [
-      "French",
-      "Russian"
+      "French"
     ]
   },
   {
     "category": "Hobbies & Interests",
     "skills": [
-      "Frisbee",
-      "Hiking",
+      "Ultimate Frisbee",
+      "Disc Golf",
+      "Volleyball",
+      "Backpacking",
       "Traveling"
     ]
   }

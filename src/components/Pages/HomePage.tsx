@@ -200,7 +200,7 @@ export default function HomePage({ profileData, featuredProjects, skillsData }: 
       <Section
         id="projects"
         title="Featured Projects"
-        subtitle="Check out some of my recent work"
+        subtitle=""
       >
         <ProjectGrid>
           {featuredProjects.map((project) => (

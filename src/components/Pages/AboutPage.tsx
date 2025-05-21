@@ -76,11 +76,11 @@ export default function AboutPage({ profileData, skillsData }: AboutPageProps) {
           <AboutContent>
             <p>
               Hello, I'm {profileData.name}, a {profileData.title} based in {profileData.location}. 
-              I specialize in creating modern, responsive web applications with a focus on user experience and performance.
+              I specialize in imagery analysis and scripting to analyze global land cover change.
             </p>
             <p>
               I currently work at the University of Maryland, College Park as a Faculty Specialist in the Geography Department. 
-              In this role, I integrate Geographic Information Systems (GIS), Remote Sensing, lidar technology, and programming to study patterns of land use change. 
+              In this role, I integrate Geospatial Information Systems (GIS), Remote Sensing, lidar technology, and programming to study patterns of land use change. 
               My work is driven by a passion for understanding how landscapes evolve over time and the broader environmental and societal impacts of those changes. 
               I collaborate on interdisciplinary research projects and develop tools that help visualize and analyze spatial data in innovative ways.
             </p>
