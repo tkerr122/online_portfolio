@@ -1,12 +1,11 @@
 [
   {
     "id": "1",
-    "title": "E-commerce Platform",
-    "description": "A full-stack e-commerce platform with user authentication, product management, and payment processing.",
-    "technologies": ["React", "Node.js", "Express", "MongoDB", "Stripe"],
+    "title": "Canopy Height Models for Convolutional Neural Network",
+    "description": "I created a workflow extracting Canopy Height Models from lidar data to use as training for a CNN model",
+    "technologies": ["Python", "R", "Bash"],
     "image": "/images/projects/ecommerce.jpg",
-    "githubUrl": "https://github.com/theo/ecommerce",
-    "liveUrl": "https://ecommerce-demo.com",
+    "githubUrl": "https://github.com/tkerr122",
     "featured": true
   },
   {
