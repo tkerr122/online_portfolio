@@ -2,9 +2,9 @@
   {
     "category": "Programming Languages",
     "skills": [
-      "Python",
-      "R",
-      "Bash"
+      "Python: GDAL, NumPy, GeoPandas, Pandas for vector and raster manipulation, and interacting with APIs",
+      "R: LidR, LasR, ForEach, DoParallel, Future, Raster for lidar data processing",
+      "Bash: download files in parallel and script GDAL workflows"
     ]
   },
   {
