@@ -5,7 +5,7 @@ import { Profile } from '@/types';
 import Script from 'next/script';
 
 export const metadata: Metadata = {
-  title: 'Theo | Full Stack Developer',
+  title: 'Theo | Remote Sensing Scientist',
   description: 'Personal portfolio website showcasing projects and skills',
   icons: {
     icon: '/favicon.ico',
@@ -24,11 +24,11 @@ export const viewport: Viewport = {
 // Default profile data
 const defaultProfile: Profile = {
   name: 'Theo',
-  title: 'Full Stack Developer',
-  description: 'Full Stack Developer specializing in modern web technologies',
-  email: 'contact@example.com',
-  phone: '',
-  location: 'New York, NY',
+  title: 'Remote Sensing Scientist',
+  description: 'Remote Sensing Scientist specializing in Image Interpretation and Python scripting',
+  email: 'theodoremkerr@gmail.com',
+  phone: '240-281-1498',
+  location: 'Washington, D.C.',
   social: {
     github: 'https://github.com',
     linkedin: 'https://linkedin.com',

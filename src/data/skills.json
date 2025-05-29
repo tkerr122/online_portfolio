@@ -1,14 +1,5 @@
 [
   {
-    "category": "Programming Languages",
-    "skills": [
-      "Python",
-      "R",
-      "Bash",
-      "SQL"
-    ]
-  },
-  {
     "category": "GIS & Remote Sensing",
     "skills": [
       "Geographic Information Systems (GIS)",
@@ -19,6 +10,15 @@
       "QGIS",
       "Mapbox",
       "StoryMaps"
+    ]
+  },
+  {
+    "category": "Programming Languages",
+    "skills": [
+      "Python",
+      "R",
+      "Bash",
+      "SQL"
     ]
   },
   {
@@ -50,16 +50,7 @@
     "skills": [
       "Lidar data collection",
       "Field work",
-      "",
-      "Research"
-    ]
-  },
-  {
-    "category": "Soft Skills",
-    "skills": [
-      "Teamwork",
-      "Environmental Awareness",
-      "Conservation Issues"
+      "Editing technical manuscripts"
     ]
   },
   {
