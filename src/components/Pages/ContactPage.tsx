@@ -174,13 +174,13 @@ export default function ContactPage({ profileData }: ContactPageProps) {
               <p>
                 <a href={profileData.social.github} target="_blank" rel="noopener noreferrer">GitHub</a> | 
                 <a href={profileData.social.linkedin} target="_blank" rel="noopener noreferrer"> LinkedIn</a> | 
-                <a href={profileData.social.twitter} target="_blank" rel="noopener noreferrer"> Twitter</a>
+                {/* <a href={profileData.social.twitter} target="_blank" rel="noopener noreferrer"> Twitter</a> */}
               </p>
             </InfoContent>
           </InfoItem>
         </ContactInfo>
         
-        <FormContainer>
+        {/* <FormContainer>
           <Form onSubmit={handleSubmit}>
             <FormGroup>
               <Label htmlFor="name">Name</Label>
@@ -204,7 +204,7 @@ export default function ContactPage({ profileData }: ContactPageProps) {
             
             <SubmitButton type="submit">Send Message</SubmitButton>
           </Form>
-        </FormContainer>
+        </FormContainer> */}
       </ContactGrid>
     </Section>
   );
