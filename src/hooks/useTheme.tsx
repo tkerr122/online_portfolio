@@ -13,7 +13,7 @@ interface ThemeContextType {
 const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
 export const ThemeProvider = ({ children }: { children: ReactNode }) => {
-  const [theme, setTheme] = useState<ThemeMode>('dark');
+  const [theme, setTheme] = useState<ThemeMode>('light');
   const [mounted, setMounted] = useState(false);
 
   // Only access localStorage after component mounts on the client
@@ -25,8 +25,8 @@ export const ThemeProvider = ({ children }: { children: ReactNode }) => {
       const savedTheme = localStorage.getItem('theme') as ThemeMode;
       if (savedTheme) {
         setTheme(savedTheme);
-      } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        setTheme('dark');
+      } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
+        setTheme('light');
       }
     } catch (error) {
       console.error('Error accessing localStorage:', error);
@@ -45,7 +45,7 @@ export const ThemeProvider = ({ children }: { children: ReactNode }) => {
   }, [theme, mounted]);
 
   const toggleTheme = () => {
-    setTheme(prev => (prev === 'dark' ? 'light' : 'dark'));
+    setTheme(prev => (prev === 'light' ? 'dark' : 'light'));
   };
 
   const themeObject = theme === 'light' ? lightTheme : darkTheme;
