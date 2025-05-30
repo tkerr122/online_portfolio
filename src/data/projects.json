@@ -5,7 +5,7 @@
     "description": "Created a workflow extracting Canopy Height Models from lidar data to use as training for a CNN model. First step of the workflow is to use bash to batch download the lidar data. This script can be found in the \"tkerr122/bash\" repository. The next step is using the LidR and Parallel libraries in R to process the raw lidar data into Canopy Height models. This code can be found in the \"tkerr122/lidar_processing\" repository. Finally, the CHMs must be mosaiced into a single raster (script found in 'bash' repository), and cleaned of common errors such as powerlines, water, and slope errors. These scripts can be found in the \"CHM_cleaning\" repository.",
     "technologies": ["Python", "R", "Bash"],
     "image": "/images/projects/ecommerce.jpg",
-    "githubUrl": "https://github.com/tkerr122",
+    "githubUrl": "https://github.com/tkerr122/CHM_cleaning",
     "liveUrl": "",
     "featured": true
   },
@@ -15,7 +15,7 @@
     "description": "Conduct a hydrology analysis in Python using ArcPy. Used a digital elevation model to extract streams via flow accumulation, then used statistical analysis to determine accuracy of the predicted streams compared to existing stream map.",
     "technologies": ["Python", "ArcPy", "Model Evaluation"],
     "image": "/images/projects/weather.jpg",
-    "githubUrl": "https://github.com/tkerr122",
+    "githubUrl": "https://github.com/tkerr122/hydrology_analysis",
     "liveUrl": "",
     "featured": true
   },
