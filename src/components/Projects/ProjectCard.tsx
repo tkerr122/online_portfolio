@@ -145,7 +145,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
           )} */}
           {project.githubUrl && (
             <LinkSecondary href={project.githubUrl} target="_blank" rel="noopener noreferrer">
-              View Code
+              View Project
             </LinkSecondary>
           )}
         </Links>

@@ -4,9 +4,9 @@
     "title": "New publication - Rapid Monitoring of Global Land Change",
     "description": "Worked with my colleagues at the GLAD lab to develop a global land change monitoring system, DIST-ALERT, that rapidly tracks vegetation loss anomalies with 30m resolution using imagery from Landsat 8/9 and Sentinel-2A/B/C satellites. Citation: \"Pickens, A. H., Hansen, M. C., Song, Z., Poulson, A., Komarova, A., Baggett, A., ... & Lima, A. (2025). Rapid monitoring of global land change. Nature Communications, 16(1), 8948.\"",
     "technologies": ["Remote Sensing", "Technical Writing"],
-    "image": "/images/projects/CHM.png",
-    "githubUrl": "",
-    "liveUrl": "https://www.nature.com/articles/s41467-025-64014-9",
+    "image": "/images/projects/DIST-alerts.png",
+    "githubUrl": "https://www.nature.com/articles/s41467-025-64014-9",
+    "liveUrl": "",
     "featured": true
   },
   {
