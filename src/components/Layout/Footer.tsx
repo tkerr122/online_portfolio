@@ -95,9 +95,6 @@ const Footer = ({ profileData }: FooterProps) => {
               <SocialLink href={profileData.social.linkedin} target="_blank" rel="noopener noreferrer">
                 LinkedIn
               </SocialLink>
-              <SocialLink href={profileData.social.twitter} target="_blank" rel="noopener noreferrer">
-                Twitter
-              </SocialLink>
             </SocialLinks>
           </FooterSection>
           
